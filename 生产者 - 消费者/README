@@ -1,1 +1,16 @@
-
+Descrption：
+The producer-Consumer Problem
+using threads and semaphores
+buffer size (N) = 10
+the number of producers is 3
+the number of consumers is 2
+terminate condition: the total consumed items is equal to 50
+output: print out the behaves of producers and consumers in turn.
+-----------------------------------------------------------------------
+运行命令：
+$  g++ procon.c -lpthread -o pro
+$  ./pro
+-----------------------------------------------------------------------
+Output:
+每个线程的运行结果
+生产满50个后程序自动停止
